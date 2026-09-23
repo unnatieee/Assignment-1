@@ -5,13 +5,13 @@ int main()
     int n, i, x;                           
     int max, second;                      
 
-    printf("Enter N: ");                   
+    printf("Enter total numbers : ");                   
     scanf("%d", &n);                       
 
-    printf("Enter first number: ");        
+    printf("Enter first number : ");        
     scanf("%d", &max);                     
 
-    printf("Enter second number: ");       
+    printf("Enter second number : ");       
     scanf("%d", &second);                  
 
     if(second > max)                      
