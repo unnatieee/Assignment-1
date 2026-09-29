@@ -7,7 +7,7 @@ int main()
     scanf("%f %f %f", &P, &R, &T);
    
     SI = (P * R * T) / 100;
-    printf("Simple Interest = %.2f", SI);
+    printf("Simple Interest = %f", SI);
     
     return 0; 
 }
