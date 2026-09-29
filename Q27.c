@@ -4,6 +4,7 @@ int main()
 {
     int n, i;
     int count = 0;
+    
     printf("Enter a number: ");
     scanf("%d", &n);
 
