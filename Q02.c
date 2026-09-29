@@ -8,7 +8,6 @@ int main()
     printf("Enter marks of 5 subjects: ");
     scanf("%f %f %f %f %f", &a, &b, &c, &d, &e);
     
-                                    
     total = a + b + c + d + e;       
 
     percentage = total / 5;          
@@ -16,6 +15,5 @@ int main()
     printf("Total = %.2f\n", total); 
     printf("Percentage = %.2f", percentage);
                                      
-
     return 0;                         
 }
