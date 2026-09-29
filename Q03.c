@@ -13,11 +13,8 @@ int main()
     printf("Enter HRA: ");          
     scanf("%f", &HRA);              
 
-    gross = basic + DA + HRA;       
-                                     
-
+    gross = basic + DA + HRA;        
     printf("Gross Salary = %.2f", gross);
-                                      
-
+    
     return 0;                         
 }
